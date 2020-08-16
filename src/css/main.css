@@ -1,0 +1,24 @@
+body {
+  font-family: theme("fontFamily.sans");
+}
+
+a {
+  @apply text-orange-400 font-bold;
+}
+a:hover {
+  @apply text-orange-500;
+}
+
+.menu-items a {
+  border-bottom-width: theme("borderWidth.2");
+  border-color: transparent;
+}
+.menu-items a.active--exact {
+  font-weight: bold;
+  border-color: theme("colors.orange.500");
+}
+.home-header {
+  box-shadow: inset 0 100px 100px -20px rgb(254, 248, 241);
+  background-image: url("../images/home-bg.png");
+  background-size: auto 100%;
+}
