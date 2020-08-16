@@ -17,6 +17,8 @@
     "gridsome": "^0.7.19",
     "gridsome-plugin-remark-shiki": "^0.3.1",
     "gridsome-plugin-rss": "^1.2.0",
+    "node-sass": "^4.14.1",
+    "sass-loader": "^9.0.3",
     "vue-carousel": "^0.18.0",
     "vue-compare-image": "^0.2.0",
     "vue-feather-icons": "^5.1.0",

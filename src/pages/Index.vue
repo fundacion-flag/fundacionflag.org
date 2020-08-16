@@ -224,8 +224,9 @@
 </template>
 
 <script>
-import { Carousel, Slide } from 'vue-carousel';
-import VueCompareImage from 'vue-compare-image';
+import Carousel from 'vue-carousel/src/Carousel.vue'
+import Slide from 'vue-carousel/src/Slide.vue'
+import VueCompareImage from 'vue-compare-image/src/VueCompareImage.vue';
 export default {
   metaInfo: {
     title: 'Home'
