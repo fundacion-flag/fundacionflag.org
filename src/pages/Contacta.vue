@@ -65,6 +65,7 @@ export default {
         .join('&')
     },
     handleSubmit(e) {
+      console.log('Sumbit');
       fetch('/', {
         method: 'POST',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
