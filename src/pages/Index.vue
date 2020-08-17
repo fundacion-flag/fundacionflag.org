@@ -54,7 +54,7 @@
             <p>
               Nuestra misión es promover la inclusión y el pleno desarrollo de
               jóvenes mexicanos destacados, comprometidos socialmente y de
-              excelencia académica, a partir del apoyo económico, del
+              excelencia académica, a través del apoyo económico, del
               acompañamiento individual y de la formación de comunidades en las
               generaciones y entre generaciones de personas apoyadas.
             </p>
