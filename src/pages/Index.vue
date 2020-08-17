@@ -194,7 +194,7 @@
               <div>
                 <p class="quote">
                   “La beca de la FLAG no sólo es económica sino una aportación a
-                  formarnos como personas. Gracias a la fundación una serie de
+                  formarnos como personas. Gracias a la Fundación, una serie de
                   estudiantes que estamos esparcidos por diversas instituciones
                   podemos conocernos, dialogar, construir juntos algo hacia el
                   futuro. Para mí es un honor haber sido becario de la FLAG.”
