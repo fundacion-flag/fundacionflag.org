@@ -5,6 +5,7 @@
         <transition name="fadeUp">
           <h1 v-if="show" style="animation-duration: 0.3s;">
             <g-image
+              immediate="true"
               class="sm:mx-auto mt-6 w-full max-w-xs md:max-w-md lg:max-w-lg"
               src="~/images/logo-full.png"
               alt="Fundación Lorena Alejandra Gallardo"
