@@ -1,6 +1,8 @@
 <template>
   <Layout class="home">
-    <header class="bg-orange-50 bg-repeat-x bg-center home-header">
+    <header
+      class="bg-orange-50 border-b-2 border-orange-100 bg-repeat-x bg-center home-header"
+    >
       <div class="container pt-24 pb-20 md:py-32 lg:py-40 -mt-16">
         <transition name="fadeUp">
           <h1 v-if="show" style="animation-duration: 0.3s;">

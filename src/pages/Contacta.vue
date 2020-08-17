@@ -113,7 +113,9 @@
                   class="flex items-center"
                   href="mailto:fundacionflagmx@gmail.com"
                 >
-                  <mail-icon size="1x" class="mr-2" />
+                  <div style="width: 18px;" class="mr-2">
+                    <mail-icon size="1x" />
+                  </div>
                   fundacionflagmx@gmail.com</a
                 >
               </p>
@@ -128,7 +130,7 @@
                     <AlertTriangleIcon size="1.5x" />
                   </div>
                   <div>
-                    Hasta nuevo aviso nuestro equipo trabajará de manera virtual. Contáctanos mandándonos un mensaje.
+                    Hasta nuevo aviso nuestro equipo trabajará de manera virtual. Contáctanos mandando un mensaje.
                   </div>
                 </div>
                 <a class="flex items-center" href="tel:55208522">

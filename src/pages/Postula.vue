@@ -30,12 +30,12 @@
             <p>
               El programa de becas y acompañamiento FLAG tiene el objetivo de
               apoyar la permanencia y conclusión de la educación superior de
-              jóvenes de alto rendimiento académico provenientes de familias en
+              jóvenes de alto rendimiento académico, provenientes de familias en
               situación de necesidad económica.
             </p>
             <p>
               Durante los dos años de duración del programa (iniciando en enero
-              de 2021 y concluyendo en diciembre 2022) , las y los estudiantes
+              de 2021 y concluyendo en diciembre 2022), las y los estudiantes
               seleccionados recibirán una beca de manutención y seguimiento
               personalizado, además de participar en actividades grupales de
               formación.
