@@ -8,7 +8,7 @@
             class="text-3xl md:text-4xl lg:text-5xl mt-8 text-cool-gray-700 leading-snug sm:text-center font-serif font-bold"
             style="animation-duration: 0.3s;"
           >
-            Convocatoria 2020
+            Contacta
           </h1>
         </transition>
       </div>
@@ -29,21 +29,30 @@
           </p>
           <div class="sender-info">
             <div>
-              <label for="name" class="label">Your name</label>
-              <input type="text" name="name" v-model="formData.name" />
+              <label for="name" class="label">Nombre</label>
+              <input type="text" name="name" v-model="formData.name" required />
             </div>
-            <div>
-              <label for="email">Your email</label>
-              <input type="email" name="email" v-model="formData.email" />
+            <div class="mt-4">
+              <label for="email">Correo electrónico</label>
+              <input
+                type="email"
+                name="email"
+                v-model="formData.email"
+                required
+              />
             </div>
           </div>
 
-          <div class="message-wrapper">
-            <label for="message">Message</label>
-            <textarea name="message" v-model="formData.message"></textarea>
+          <div class="message-wrapper mt-4">
+            <label for="message">Mensaje</label>
+            <textarea
+              name="message"
+              v-model="formData.message"
+              required
+            ></textarea>
           </div>
 
-          <button type="submit">Submit form</button>
+          <button class="mt-4" type="submit">Enviar</button>
         </form>
       </div>
     </section>
@@ -65,7 +74,6 @@ export default {
         .join('&')
     },
     handleSubmit(e) {
-      console.log('Sumbit');
       fetch('/', {
         method: 'POST',
         headers: { 'Content-Type': 'application/x-www-form-urlencoded' },
@@ -84,5 +92,27 @@ export default {
 }
 </script>
 
-<style>
+<style lang="postcss" scoped>
+label {
+  @apply block mb-2 text-sm font-bold text-gray-900;
+}
+input,
+textarea {
+  @apply appearance-none inline-flex text-gray-700 leading-6 border-t-2 border-r-2 border-b-2 border-l-2 border-gray-400 text-base py-2 px-3 rounded;
+  &:focus {
+    @apply outline-none bg-white border-orange-400 outline-none shadow-outline-orange;
+  }
+}
+button {
+  @apply inline-flex items-center border-2 justify-center rounded-l-md rounded-r-md font-bold leading-6 border-transparent text-gray-900 bg-orange-400 text-base py-2 px-3;
+  &:hover {
+    @apply bg-orange-300;
+  }
+  &:focus {
+    @apply bg-orange-100 shadow-outline outline-none;
+  }
+  &:active {
+    @apply bg-orange-400;
+  }
+}
 </style>
