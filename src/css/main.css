@@ -49,3 +49,13 @@ a:not([class*="button-"]) {
     @apply bg-cool-gray-500;
   }
 }
+label {
+  @apply block mb-2 text-sm font-bold text-gray-900;
+}
+input,
+textarea {
+  @apply appearance-none inline-flex text-gray-700 leading-6 border-t-2 border-r-2 border-b-2 border-l-2 border-gray-400 text-base py-2 px-3 rounded;
+  &:focus {
+    @apply outline-none bg-white border-orange-400 outline-none shadow-outline-orange;
+  }
+}
