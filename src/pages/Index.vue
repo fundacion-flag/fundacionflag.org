@@ -145,7 +145,7 @@
         </div>
       </section>
       <section>
-        <div class="text-center relative -mb-20 pt-8 relative z-10">
+        <div class="text-center -mb-20 pt-8 relative z-10">
           <h2 class="text-4xl font-bold -mb-24 text-white relative z-10">
             Testimonios
           </h2>

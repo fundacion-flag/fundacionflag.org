@@ -10,6 +10,12 @@ module.exports = {
   siteUrl: 'https://fundacionflag.org/',
   plugins: [
     {
+      use: '@gridsome/plugin-google-analytics',
+      options: {
+        id: process.env.GA_CODE
+      }
+    },
+    {
       use: 'gridsome-plugin-tailwindcss',
     },
     // {

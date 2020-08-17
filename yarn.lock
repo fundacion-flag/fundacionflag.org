@@ -913,6 +913,13 @@
     sort-package-json "^1.15.0"
     update-notifier "^4.1.0"
 
+"@gridsome/plugin-google-analytics@^0.1.1":
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/@gridsome/plugin-google-analytics/-/plugin-google-analytics-0.1.1.tgz#f2f37d97dd8559fd7c4d409a6335d07e1b4be19f"
+  integrity sha512-cJ1+bqhGMDf3ZlmGNOWj1dVXitQA2ziGiR22RTv2jsX3bby1pvz8C2mentVE3ZzSKJoSQJHvlazjXmzWcifneg==
+  dependencies:
+    vue-analytics "^5.16.1"
+
 "@gridsome/plugin-sitemap@^0.4.0":
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/@gridsome/plugin-sitemap/-/plugin-sitemap-0.4.0.tgz#dbd51c747cb8d6d9c827104c832e35a5aa4807af"
@@ -10266,6 +10273,11 @@ vm-browserify@^1.0.1:
 "vscode-textmate@https://github.com/octref/vscode-textmate":
   version "4.0.1"
   resolved "https://github.com/octref/vscode-textmate#e65aabe2227febda7beaad31dd0fca1228c5ddf3"
+
+vue-analytics@^5.16.1:
+  version "5.22.1"
+  resolved "https://registry.yarnpkg.com/vue-analytics/-/vue-analytics-5.22.1.tgz#9d6b32da56daee1b9dfb23a267b50349a03f710f"
+  integrity sha512-HPKQMN7gfcUqS5SxoO0VxqLRRSPkG1H1FqglsHccz6BatBatNtm/Vyy8brApktZxNCfnAkrSVDpxg3/FNDeOgQ==
 
 vue-carousel@^0.18.0:
   version "0.18.0"
