@@ -10,26 +10,16 @@ module.exports = {
   siteUrl: 'https://fundacionflag.org/',
   plugins: [
     {
-      use: '@gridsome/plugin-google-analytics',
+      use: 'gridsome-plugin-gtm',
       options: {
-        id: process.env.GA_CODE
+        id: 'GTM-5T5C859',
+        enabled: true,
+        debug: true
       }
     },
     {
       use: 'gridsome-plugin-tailwindcss',
     },
-    // {
-    //   use: '@gridsome/vue-remark',
-    //   options: {
-    //     typeName: 'Documentation', // Required
-    //     baseDir: './docs', // Where .md files are located
-    //     pathPrefix: '/docs', // Add route prefix. Optional
-    //     template: './src/templates/Documentation.vue', // Optional
-    //     plugins: [
-    //       ['gridsome-plugin-remark-shiki', { theme: 'Material-Theme-Palenight', skipInline: true }]
-    //     ],
-    //   }
-    // },
     {
       use: '@gridsome/source-filesystem',
       options: {
