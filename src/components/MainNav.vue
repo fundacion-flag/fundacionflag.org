@@ -32,10 +32,10 @@ export default {
           text: 'Contacta',
           to: '/contacta'
         },
-        {
-          text: 'Dona',
-          to: '/dona'
-        }
+        // {
+        //   text: 'Dona',
+        //   to: '/dona'
+        // }
       ]
     }
   }
