@@ -123,6 +123,14 @@
                 Teléfono
               </h3>
               <p>
+                <div class="bg-orange-50 border-2 border-orange-400 text-sm text-orange-500 mb-2 rounded py-3 px-4 flex items-start">
+                  <div class="text-orange-500 mt-2 mr-2">
+                    <AlertTriangleIcon size="1.5x" />
+                  </div>
+                  <div>
+                    Hasta nuevo aviso nuestro equipo trabajará de manera virtual. Contáctanos mandándonos un mensaje.
+                  </div>
+                </div>
                 <a class="flex items-center" href="tel:55208522">
                   <phone-icon size="1x" class="mr-2" />
                   55208522</a
@@ -137,12 +145,13 @@
 </template>
 
 <script>
-import { ExternalLinkIcon, MailIcon, PhoneIcon } from 'vue-feather-icons'
+import { ExternalLinkIcon, MailIcon, PhoneIcon, AlertTriangleIcon} from 'vue-feather-icons'
 export default {
   components: {
     ExternalLinkIcon,
     MailIcon,
-    PhoneIcon
+    PhoneIcon,
+    AlertTriangleIcon
   },
   data() {
     return {
