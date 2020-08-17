@@ -1,6 +1,8 @@
 <template>
   <Layout>
-    <header class="bg-orange-50 bg-repeat-x bg-center">
+    <header
+      class="bg-orange-50 border-b-2 border-orange-100 bg-repeat-x bg-center"
+    >
       <div
         class="container pt-20 pb-12 md:pt-24 md:pb-20 lg:pt-32 lg:pb-24 -mt-14 lg:-mt-16"
       >
