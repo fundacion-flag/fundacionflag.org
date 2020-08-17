@@ -1,8 +1,7 @@
 <template>
   <Layout>
     <div class="container mx-auto px-6">
-      <h2 class="text-4xl font-bold mb-16">Page Not Found</h2>
-      <g-image src="../../static/404.svg" alt="404 page not foud" />
+      <h2 class="text-4xl font-bold mb-16">Oops. Page Not Found</h2>
     </div>
   </Layout>
 </template>
