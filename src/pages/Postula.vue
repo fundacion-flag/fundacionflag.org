@@ -18,7 +18,9 @@
       </div>
     </header>
     <section>
-      <div class="container py-16 grid grid-cols-1 lg:grid-cols-2 gap-20">
+      <div
+        class="container py-16 grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-20"
+      >
         <div>
           <g-image class="rounded" src="~/images/postula.png" />
         </div>
@@ -43,14 +45,14 @@
               Antes de llenar la solicitud en línea, lee cuidadosamente la
               convocatoria y ten preparados los documentos solicitados. Recuerda
               que la fecha límite para registrar tu postulación es el 13 de
-              septiembre del a las 23:59 hrs.
+              septiembre a las 23:59 hrs.
             </p>
           </div>
           <div
             class="mt-6 py-6 px-8 bg-orange-50 border-orange-100 border-2 rounded-lg"
           >
             <a
-              class="button-secondary md:mr-4"
+              class="button-secondary mb-4 sm:mb-0 mr-4"
               href="/files/convocatoria-flag-2020.pdf"
               target="_blank"
             >
@@ -70,7 +72,7 @@
       </div>
     </section>
     <section class="bg-orange-50 py-16">
-      <div class="container grid grid-cols-1 lg:grid-cols-2 gap-20">
+      <div class="container grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-20">
         <div class="prose prose-lg">
           <h2>Requisitos</h2>
           <ul>
@@ -148,7 +150,7 @@
             </li>
           </ol>
           <p>
-            Al concluir cada etapa del proceso de selección se comunicarán los
+            Al concluir cada etapa del proceso de selección, se comunicarán los
             resultados a través de correo electrónico.
           </p>
         </div>

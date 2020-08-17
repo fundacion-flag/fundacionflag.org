@@ -41,7 +41,7 @@
               La Fundación Lorena Alejandra Gallardo (FLAG) es una Institución
               de Asistencia Privada que apoya el desarrollo integral de las y
               los jóvenes mexicanos universitarios con potencial de ser agentes
-              de cambio a partir de una atención personalizada.
+              de cambio, a partir de una atención personalizada.
             </p>
           </div>
         </div>
@@ -52,10 +52,11 @@
           <div class="prose prose-lg max-w-none">
             <h2>¿Qué hacemos?</h2>
             <p>
-              La Fundación Lorena Alejandra Gallardo (FLAG) es una Institución
-              de Asistencia Privada que apoya el desarrollo integral de las y
-              los jóvenes mexicanos universitarios con potencial de ser agentes
-              de cambio a partir de una atención personalizada.
+              Nuestra misión es promover la inclusión y el pleno desarrollo de
+              jóvenes mexicanos destacados, comprometidos socialmente y de
+              excelencia académica, a partir del apoyo económico, del
+              acompañamiento individual y de la formación de comunidades en las
+              generaciones y entre generaciones de personas apoyadas.
             </p>
             <p>
               El programa de becas de la FLAG tiene una duración de dos años.
@@ -97,10 +98,11 @@
                 <g-image src="~/images/light_icon.png" width="100px" />
               </div>
               <div class="col-span-4 prose">
-                <h3>Acompañar</h3>
+                <h3>Potenciar</h3>
                 <p>
-                  Impulsamos el crecimiento personal con citas individuales de
-                  seguimiento una vez al mes.
+                  Creamos una comunidad diversa, en la cual las y los jóvenes
+                  desarrollan sus capacidades, aprenden nuevas herramientas y
+                  encuentran apoyo entre sí.
                 </p>
               </div>
             </div>

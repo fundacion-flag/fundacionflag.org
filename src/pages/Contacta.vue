@@ -18,9 +18,9 @@
       </div>
     </header>
     <section class="py-16">
-      <div class="container grid grid-cols-1 lg:grid-cols-2 gap-20">
+      <div class="container grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-20">
         <div
-          class="bg-orange-50 border-2 border-orange-100 py-12 px-12 rounded-lg"
+          class="bg-orange-50 border-2 border-orange-100 py-6 px-6 md:py-12 md:px-12 rounded-lg"
         >
           <form
             name="contact"
@@ -31,7 +31,7 @@
             data-netlify-honeypot="bot-field"
           >
             <div class="prose prose-lg mb-10">
-              <h2>Cuadro de mensajes</h2>
+              <h2>Mensajes</h2>
               <p>
                 Déjanos tus datos y nos comunicaremos contigo a la brevedad.
               </p>
@@ -79,9 +79,9 @@
           </form>
         </div>
         <div
-          class="prose prose-lg max-w-none bg-cool-gray-50 border-2 border-gray-200 py-12 px-12 rounded-lg"
+          class="prose prose-lg max-w-none bg-cool-gray-50 border-2 border-gray-200 py-6 px-6 md:py-12 md:px-12 rounded-lg"
         >
-          <h2>Mas Informacion</h2>
+          <h2>Información de contacto</h2>
           <g-image class="mb-6" src="~/images/sep.png" width="200px" />
           <ul>
             <li>
