@@ -1,14 +1,14 @@
 <template>
   <Layout class="home">
     <header
-      class="bg-orange-50 border-b-2 border-orange-100 bg-repeat-x bg-center home-header"
+      class="bg-center bg-repeat-x border-b-2 border-orange-100 bg-orange-50 home-header"
     >
-      <div class="container pt-24 pb-20 md:py-32 lg:py-40 -mt-16">
+      <div class="container pt-24 pb-20 -mt-16 md:py-32 lg:py-40">
         <transition name="fadeUp">
           <h1 v-if="show" style="animation-duration: 0.3s;">
             <g-image
               immediate="true"
-              class="sm:mx-auto mt-6 w-full max-w-xs md:max-w-md lg:max-w-lg"
+              class="w-full max-w-xs mt-6 sm:mx-auto md:max-w-md lg:max-w-lg"
               src="~/images/logo-full.png"
               alt="Fundación Lorena Alejandra Gallardo"
             />
@@ -17,18 +17,18 @@
         <transition name="fadeUp">
           <h2
             v-if="show"
-            class="text-3xl md:text-4xl lg:text-5xl mt-8 text-cool-gray-700 leading-snug sm:text-center font-serif font-bold"
+            class="mt-8 font-serif text-3xl font-bold leading-snug md:text-4xl lg:text-5xl text-cool-gray-700 sm:text-center"
             style="animation-duration: 0.5s;"
           >
             Apoyando el potencial de las y los
-            <br class="hidden xl:inline-block" />jóvenes mexicanos desde 1984.
+            <br class="hidden xl:inline-block" />jóvenes mexicanos desde 1984
           </h2>
         </transition>
       </div>
     </header>
     <main>
       <section class="py-12 sm:py-16 md:py-14">
-        <div class="container grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-20">
+        <div class="container grid grid-cols-1 gap-10 md:grid-cols-2 md:gap-20">
           <div class="bg-white">
             <g-image
               fit="inside"
@@ -37,7 +37,7 @@
               src="~/images/about.png"
             />
           </div>
-          <div class="prose prose-lg max-w-none self-center">
+          <div class="self-center prose prose-lg max-w-none">
             <h2>¿Quiénes somos?</h2>
             <p>
               La Fundación Lorena Alejandra Gallardo (FLAG) es una Institución
@@ -49,8 +49,8 @@
         </div>
       </section>
       <!-- ¿Qué hacemos? -->
-      <section class="bg-orange-50 py-12 sm:py-16 md:py-20">
-        <div class="container grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-20">
+      <section class="py-12 bg-orange-50 sm:py-16 md:py-20">
+        <div class="container grid grid-cols-1 gap-10 md:grid-cols-2 md:gap-20">
           <div class="prose prose-lg max-w-none">
             <h2>¿Qué hacemos?</h2>
             <p>
@@ -70,7 +70,7 @@
               educativas y personales.
             </p>
           </div>
-          <div class="space-y-10 self-center">
+          <div class="self-center space-y-10">
             <div class="grid grid-cols-5 gap-4">
               <div class="col-span-1">
                 <g-image src="~/images/grad_icon.png" width="100px" />
@@ -113,11 +113,11 @@
       </section>
       <!-- Nuestra historia -->
       <section
-        class="container py-12 sm:py-16 md:py-20 grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-20"
+        class="container grid grid-cols-1 gap-10 py-12 sm:py-16 md:py-20 lg:grid-cols-2 md:gap-20"
       >
         <div>
           <VueCompareImage
-            class="rounded-lg overflow-hidden"
+            class="overflow-hidden rounded-lg"
             :hover="true"
             :leftImage="require(`~/images/yesterday.png`)"
             :rightImage="require(`~/images/today.png`)"
@@ -145,11 +145,11 @@
         </div>
       </section>
       <section>
-        <div class="text-center -mb-20 pt-8 relative z-10">
-          <h2 class="text-4xl font-bold -mb-24 text-white relative z-10">
+        <div class="relative z-10 pt-8 -mb-20 text-center">
+          <h2 class="relative z-10 -mb-24 text-4xl font-bold text-white">
             Testimonios
           </h2>
-          <g-image class="mx-auto w-64" src="~/images/blob.png" />
+          <g-image class="w-64 mx-auto" src="~/images/blob.png" />
         </div>
         <carousel
           loop="true"
@@ -160,7 +160,7 @@
           :adjustableHeight="true"
         >
           <slide class="bg-blue-50">
-            <div class="container h-full flex items-center">
+            <div class="container flex items-center h-full">
               <div>
                 <p class="quote">
                   “Tuve el privilegio de conocer personalmente a Don Juan
@@ -176,7 +176,7 @@
             </div>
           </slide>
           <slide class="bg-orange-50">
-            <div class="container h-full flex items-center">
+            <div class="container flex items-center h-full">
               <div>
                 <p class="quote">
                   “La FLAG vino a enriquecer mi mirada y a abrir un mundo de
@@ -192,7 +192,7 @@
             </div>
           </slide>
           <slide class="bg-blue-50">
-            <div class="container h-full flex items-center">
+            <div class="container flex items-center h-full">
               <div>
                 <p class="quote">
                   “La beca de la FLAG no sólo es económica sino una aportación a
@@ -206,7 +206,7 @@
             </div>
           </slide>
           <slide class="bg-orange-50">
-            <div class="container h-full flex items-center">
+            <div class="container flex items-center h-full">
               <div>
                 <p class="quote">
                   “Sin duda FLAG ha impactado positivamente en mi vida. Me ha
