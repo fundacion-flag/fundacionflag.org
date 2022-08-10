@@ -1,7 +1,7 @@
 <template>
   <Layout>
     <header
-      class="bg-cool-gray-50 border-b-2 border-cool-gray-200 bg-repeat-x bg-center"
+      class="bg-center bg-repeat-x border-b-2 bg-cool-gray-50 border-cool-gray-200"
     >
       <div
         class="container pt-20 pb-12 md:pt-24 md:pb-20 lg:pt-32 lg:pb-24 -mt-14 lg:-mt-16"
@@ -9,7 +9,7 @@
         <transition name="fadeUp">
           <h1
             v-if="show"
-            class="text-3xl md:text-4xl lg:text-5xl mt-8 text-cool-gray-700 leading-snug text-center font-serif font-bold"
+            class="mt-8 font-serif text-3xl font-bold leading-snug text-center md:text-4xl lg:text-5xl text-cool-gray-700"
             style="animation-duration: 0.3s;"
           >
             Contacta
@@ -18,9 +18,9 @@
       </div>
     </header>
     <section class="py-16">
-      <div class="container grid grid-cols-1 lg:grid-cols-2 gap-10 md:gap-20">
+      <div class="container grid grid-cols-1 gap-10 lg:grid-cols-2 md:gap-20">
         <div
-          class="bg-orange-50 border-2 border-orange-100 py-6 px-6 md:py-12 md:px-12 rounded-lg"
+          class="px-6 py-6 border-2 border-orange-100 rounded-lg bg-orange-50 md:py-12 md:px-12"
         >
           <form
             name="contact"
@@ -30,7 +30,7 @@
             data-netlify="true"
             data-netlify-honeypot="bot-field"
           >
-            <div class="prose prose-lg mb-10">
+            <div class="mb-10 prose prose-lg">
               <h2>Mensajes</h2>
               <p>
                 Déjanos tus datos y nos comunicaremos contigo a la brevedad.
@@ -64,7 +64,7 @@
               </div>
             </div>
 
-            <div class="message-wrapper mt-6">
+            <div class="mt-6 message-wrapper">
               <label for="message">Mensaje</label>
               <textarea
                 class="w-full"
@@ -79,7 +79,7 @@
           </form>
         </div>
         <div
-          class="prose prose-lg max-w-none bg-cool-gray-50 border-2 border-gray-200 py-6 px-6 md:py-12 md:px-12 rounded-lg"
+          class="px-6 py-6 prose prose-lg border-2 border-gray-200 rounded-lg max-w-none bg-cool-gray-50 md:py-12 md:px-12"
         >
           <h2>Información de contacto</h2>
           <g-image class="mb-6" src="~/images/sep.png" width="200px" />
@@ -111,13 +111,13 @@
               <p>
                 <a
                   class="flex items-center"
-                  href="mailto:fundacionflagmx@gmail.com"
+                  href="mailto:contacto@fundacionflag.org"
                 >
                   <div style="width: 18px;" class="mr-2">
                     <mail-icon size="1x" />
                   </div>
-                  fundacionflagmx@gmail.com</a
-                >
+                  contacto@fundacionflag.org
+                  </a>
               </p>
             </li>
             <li>
@@ -125,8 +125,8 @@
                 Teléfono
               </h3>
               <p>
-                <div class="bg-orange-50 border-2 border-orange-400 text-sm text-orange-500 mb-2 rounded py-3 px-4 flex items-start">
-                  <div class="text-orange-500 mt-2 mr-2">
+                <div class="flex items-start px-4 py-3 mb-2 text-sm text-orange-500 border-2 border-orange-400 rounded bg-orange-50">
+                  <div class="mt-2 mr-2 text-orange-500">
                     <AlertTriangleIcon size="1.5x" />
                   </div>
                   <div>

@@ -85,7 +85,7 @@
             <li>Tener nacionalidad mexicana.</li>
             <li>Tener entre 18 y 23 años.</li>
             <li>Estado civil soltero.</li>
-            <li>Poseer habilidades de liderazgo, la capacidad de perseverar en circunstancias difíciles y un gran interés y compromiso con su comunidad.</li>
+            <li>Poseer habilidades de liderazgo, iniciativa y un gran interés y compromiso con su comunidad. </li>
           </ul>
         </div>
         <div class="prose prose-lg">
