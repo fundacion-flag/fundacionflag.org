@@ -90,8 +90,7 @@
               <div class="col-span-4 prose">
                 <h3>Acompañar</h3>
                 <p>
-                  Impulsamos el crecimiento personal con citas individuales de
-                  seguimiento una vez al mes.
+                  Impulsamos el crecimiento personal con citas de seguimiento una vez al mes.
                 </p>
               </div>
             </div>
@@ -126,21 +125,10 @@
         <div class="prose prose-lg max-w-none">
           <h2>Nuestra historia</h2>
           <p>
-            La FLAG se creó en 1984 por iniciativa de Don Juan Gallardo y su
-            familia para perpetuar la memoria de su hija Lorena Alejandra, quien
-            falleció a temprana edad. Somos la primera institución de asistencia
-            privada en México dedicada a brindar apoyo económico a estudiantes
-            de educación superior.
+            La FLAG se creó en 1984 por iniciativa de Don Juan Gallardo y su familia para perpetuar la memoria de su hija Lorena Alejandra, quien falleció a temprana edad. Somos la primera institución de asistencia privada en México dedicada a brindar apoyo económico a estudiantes de educación superior.
           </p>
           <p>
-            Nuestros fundadores estaban convencidos de que la educación es un
-            derecho fundamental y un instrumento clave para construir un mejor
-            país. Ésa misma convicción sigue viva en la FLAG hoy en día.
-          </p>
-          <p>
-            Durante 36 años, hemos tenido el privilegio de acompañar a nuevas
-            generaciones de estudiantes brillantes y comprometidos a construir
-            un México mejor.
+            Nuestros fundadores estaban convencidos de que la educación es un derecho fundamental y un instrumento clave para construir un mejor país. Ésa misma convicción sigue viva en la FLAG hoy en día.
           </p>
         </div>
       </section>
