@@ -74,7 +74,7 @@
                 Ser estudiante en sistema escolarizado de cualquier carrera. Matriculada/o en una institución de educación superior ubicada en la Ciudad de México o área metropolitana, tanto públicas como privadas.
               </p>
               <p>
-                En caso de estudiar en una universidad privada, es necesario contar con una beca o financiamiento que cubra un mínimo del 80% de la colegiatura.
+                En caso de estudiar en una universidad privada, es necesario contar con una beca o financiamiento que cubra un mínimo del 90% de la colegiatura.
               </p>
             </li>
             <li>
